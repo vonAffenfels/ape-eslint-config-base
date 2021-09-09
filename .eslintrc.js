@@ -1,12 +1,8 @@
-{
-    "ignorePatterns": [
-        "@va/mobile/public/**/*.js"
-    ],
+module.exports = {
+    "ignorePatterns": ["@va/mobile/public/**/*.js"],
     "parserOptions": {
         "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
+        "ecmaFeatures": {"jsx": true}
     },
     "extends": [
         "eslint:recommended",
@@ -18,37 +14,15 @@
         "es2021": true,
         "node": true
     },
-    "plugins": [
-        "tailwindcss",
-        "react",
-        "json",
-        "newline-destructuring"
-    ],
+    "plugins": ["tailwindcss", "react", "json", "newline-destructuring"],
     "rules": {
-        "semi": [
-            "error",
-            "always"
-        ],
-        "semi-style": [
-            "error",
-            "last"
-        ],
+        "semi": ["error", "always"],
+        "semi-style": ["error", "last"],
         "tailwindcss/classnames-order": "error",
-        "json/*": [
-            "error",
-            {
-                "allowComments": true
-            }
-        ],
-        "no-trailing-spaces": [
-            "error"
-        ],
-        "no-multiple-empty-lines": [
-            "error"
-        ],
-        "no-multi-spaces": [
-            "error"
-        ],
+        "json/*": ["error", {"allowComments": true}],
+        "no-trailing-spaces": ["error"],
+        "no-multiple-empty-lines": ["error"],
+        "no-multi-spaces": ["error"],
         "indent": [
             "error",
             4,
@@ -70,7 +44,7 @@
         "comma-dangle": [
             "error",
             {
-                "arrays": "always",
+                "arrays": "never",
                 "objects": "never",
                 "imports": "never",
                 "exports": "never",
@@ -84,18 +58,9 @@
                 "after": true
             }
         ],
-        "space-in-parens": [
-            "error",
-            "never"
-        ],
-        "one-var-declaration-per-line": [
-            "error",
-            "always"
-        ],
-        "rest-spread-spacing": [
-            "error",
-            "never"
-        ],
+        "space-in-parens": ["error", "never"],
+        "one-var-declaration-per-line": ["error", "always"],
+        "rest-spread-spacing": ["error", "never"],
         "padded-blocks": [
             "error",
             {
@@ -119,27 +84,14 @@
                 "after": true
             }
         ],
-        "@next/next/no-document-import-in-page": [
-            0
-        ],
-        "@next/next/no-html-link-for-pages": [
-            0
-        ],
+        "@next/next/no-document-import-in-page": [0],
+        "@next/next/no-html-link-for-pages": [0],
         "space-before-blocks": "error",
-        "computed-property-spacing": [
-            "error",
-            "never"
-        ],
-        "template-curly-spacing": [
-            "error",
-            "never"
-        ],
+        "computed-property-spacing": ["error", "never"],
+        "template-curly-spacing": ["error", "never"],
         "arrow-spacing": "error",
         "keyword-spacing": "error",
-        "object-curly-spacing": [
-            2,
-            "never"
-        ],
+        "object-curly-spacing": [2, "never"],
         "react/self-closing-comp": "error",
         "react/jsx-key": "error",
         "react/jsx-max-props-per-line": [
@@ -149,19 +101,10 @@
                 "when": "multiline"
             }
         ],
-        "react/jsx-first-prop-new-line": [
-            2,
-            "multiline-multiprop"
-        ],
-        "react/react-in-jsx-scope": [
-            0
-        ],
-        "react/prop-types": [
-            0
-        ],
-        "no-unused-vars": [
-            1
-        ],
+        "react/jsx-first-prop-new-line": [2, "multiline-multiprop"],
+        "react/react-in-jsx-scope": [0],
+        "react/prop-types": [0],
+        "no-unused-vars": [1],
         "object-curly-newline": [
             "error",
             {
@@ -169,10 +112,7 @@
                 "minProperties": 2
             }
         ],
-        "brace-style": [
-            "error",
-            "1tbs"
-        ],
+        "brace-style": ["error", "1tbs"],
         "object-property-newline": [
             "error",
             {
@@ -180,42 +120,15 @@
                 "allowMultiplePropertiesPerLine": false
             }
         ],
-        "function-paren-newline": [
-            "error",
-            {
-                "minItems": 4
-            }
-        ],
-        "function-call-argument-newline": [
-            "error",
-            "consistent"
-        ],
-        "array-element-newline": [
-            "error",
-            {
-                "multiline": true,
-                "minItems": 5
-            }
-        ],
-        "array-bracket-newline": [
-            "error",
-            {
-                "multiline": true,
-                "minItems": 5
-            }
-        ],
-        "react/no-unescaped-entities": [
-            0
-        ],
+        "function-paren-newline": ["error", {"minItems": 4}],
+        "function-call-argument-newline": ["error", "consistent"],
+        "array-element-newline": ["error", "consistent"],
+        "array-bracket-newline": ["error", "consistent"],
+        "react/no-unescaped-entities": [0],
         "no-mixed-spaces-and-tabs": "error",
         "space-infix-ops": "error",
         "spaced-comment": "error",
-        "max-len": [
-            1,
-            {
-                "code": 80
-            }
-        ],
+        "max-len": [1, {"code": 80}],
         "newline-destructuring/newline": [
             "error",
             {
@@ -225,28 +138,16 @@
         ]
     },
     "settings": {
-        "react": {
-            "version": "detect"
-        },
-        "next": {
-            "rootDir": "/@va/mobile/"
-        },
+        "react": {"version": "detect"},
+        "next": {"rootDir": "/@va/mobile/"},
         "tailwindcss": {
-            "callees": [
-                "classnames",
-                "classNames",
-                "clsx",
-                "ctl"
-            ],
+            "callees": ["classnames", "classNames", "clsx", "ctl"],
             "config": "@va/mobile/tailwind.config.js",
-            "cssFiles": [
-                "**/*.css",
-                "!**/node_modules"
-            ],
+            "cssFiles": ["**/*.css", "!**/node_modules"],
             "groupByResponsive": false,
             "prependCustom": true,
             "removeDuplicates": true,
             "whitelist": []
         }
     }
-}
+};
