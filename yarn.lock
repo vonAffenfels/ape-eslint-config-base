@@ -503,6 +503,11 @@ eslint-plugin-json@^3.1.0:
     lodash "^4.17.21"
     vscode-json-languageservice "^4.1.6"
 
+eslint-plugin-newline-destructuring@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-newline-destructuring/-/eslint-plugin-newline-destructuring-1.0.1.tgz#0623ca6de807b037fc4c1c7b5eac93c682dc39fa"
+  integrity sha512-NOSS4Yel10oVhyFmM12AXw+koNhblZT1aj1KZkK/dAo0cA3XArbSc7JKQOvgAVvyVBaNNFTHswk49iHq/RrHTQ==
+
 eslint-plugin-react@^7.25.1:
   version "7.25.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.25.1.tgz#9286b7cd9bf917d40309760f403e53016eda8331"

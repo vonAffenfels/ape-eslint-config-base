@@ -21,7 +21,8 @@
     "plugins": [
         "tailwindcss",
         "react",
-        "json"
+        "json",
+        "newline-destructuring"
     ],
     "rules": {
         "semi": [
@@ -165,7 +166,7 @@
             "error",
             {
                 "multiline": true,
-                "minProperties": 3
+                "minProperties": 2
             }
         ],
         "brace-style": [
@@ -210,9 +211,16 @@
         "space-infix-ops": "error",
         "spaced-comment": "error",
         "max-len": [
+            1,
+            {
+                "code": 80
+            }
+        ],
+        "newline-destructuring/newline": [
             "error",
             {
-                "code": 120
+                "items": 1,
+                "itemsWithRest": 2
             }
         ]
     },

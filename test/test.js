@@ -31,7 +31,9 @@ switch (test) {
 }
 
 const testConst = ({
-    decon = 0, structed, props = "default"
+    decon = 0,
+    structed,
+    props = "default"
 }) => {
     if (decon) {
         // nothing
@@ -45,8 +47,12 @@ const testConst = ({
 };
 
 const testConstLong = ({
-    decon, structed,
-    props = "default", asdasdad = true, fddgfgfdgdgfdg = false, asdsadsd = "why am i so long tralalala"
+    decon,
+    structed,
+    asdasd = "default",
+    asdasdad = true,
+    fddgfgfdgdgfdg = false,
+    asdsadsd = "whyamisolongtralalala"
 }) => {
 
 };
@@ -73,15 +79,30 @@ const obj = {
     [strTest]: {blubb: true},
     blubb: true,
     what: true,
-    bla: "what"
+    bla: "what",
+    blubb2: true,
+    what2: true,
+    bla2: "what"
 };
 
 const {
-    blubb, what, bla
+    blubb,
+    what,
+    bla
 } = obj;
 
+const {
+    blubb2,
+    what2
+} = obj;
+
+const {bla2} = obj;
+
 const Component = ({
-    test = true, test2 = true, test3 = false, test4 = "what"
+    test = true,
+    test2 = true,
+    test3 = false,
+    test4 = "what"
 }) => {
     return (
         <div className="test" onClick={test}>
