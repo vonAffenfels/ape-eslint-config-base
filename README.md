@@ -1,14 +1,21 @@
-# Install
+
+
+
+# Setup
+### Install
 
 ```
 yarn add eslint@7 eslint-config-ape
 ```
 
-# Usage General
+### Config
 
 .eslintrc.json
 ```
 {
+    "ignorePatterns": [
+        "**/node_modules/**/*.js"
+    ],
     "extends": [
         "eslint-config-ape"
     ],
@@ -23,7 +30,20 @@ yarn add eslint@7 eslint-config-ape
 }
 ```
 
+### Run
+Alle js Files, behebe alle fehler und zeige keine warnings an
+```
+    yarn eslint **/*.js --fix --quiet
+```
+
+Alle js Files, zeige alle fehler und warnings an, keine automatischen fixes
+```
+    yarn eslint **/*.js
+```
+
 # Commit hook setup
+
+Um automatisch alle Dateien die comitted werden zu prüfen:
 
 ```
 yarn add husky lint-staged
