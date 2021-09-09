@@ -1,0 +1,16 @@
+{
+    "name": "@ape/eslint",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "eslint": "eslint test/* --fix"
+    },
+    "devDependencies": {
+        "@next/eslint-plugin-next": "^11.1.2",
+        "eslint": "^7.32.0",
+        "eslint-plugin-json": "^3.1.0",
+        "eslint-plugin-react": "^7.25.1",
+        "eslint-plugin-tailwindcss": "^1.14.3"
+    }
+}
