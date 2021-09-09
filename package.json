@@ -1,5 +1,6 @@
 {
-    "name": "@ape/eslint",
+    "name": "@ape/eslint-config-base",
+    "private": false,
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
