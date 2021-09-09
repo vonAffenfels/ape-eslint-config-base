@@ -138,10 +138,9 @@ module.exports = {
     },
     "settings": {
         "react": {"version": "detect"},
-        "next": {"rootDir": "/@va/mobile/"},
         "tailwindcss": {
             "callees": ["classnames", "classNames", "clsx", "ctl"],
-            "config": "@va/mobile/tailwind.config.js",
+            "config": "tailwind.config.js",
             "cssFiles": ["**/*.css", "!**/node_modules"],
             "groupByResponsive": false,
             "prependCustom": true,
