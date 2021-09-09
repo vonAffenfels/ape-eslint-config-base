@@ -127,7 +127,19 @@ module.exports = {
         "no-mixed-spaces-and-tabs": "error",
         "space-infix-ops": "error",
         "spaced-comment": "error",
-        "max-len": [1, {"code": 80}],
+        "max-len": [
+            1, {
+                "code": 160,
+                tabWidth: 4,
+                comments: 300,
+                ignoreComments: true,
+                ignoreTrailingComments: true,
+                ignoreUrls: true,
+                ignoreStrings: true,
+                ignoreTemplateLiterals: true,
+                ignoreRegExpLiterals: true
+            }
+        ],
         "newline-destructuring/newline": [
             "error",
             {
