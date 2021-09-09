@@ -1,5 +1,4 @@
 module.exports = {
-    "ignorePatterns": ["@va/mobile/public/**/*.js"],
     "parserOptions": {
         "sourceType": "module",
         "ecmaFeatures": {"jsx": true}
