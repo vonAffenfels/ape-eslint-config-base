@@ -16,15 +16,23 @@ async function testAsync() {
  * Comment
  */
 class Test {
+
     constructor(test = "asd") {
         return null;
     }
+
+}
+
+switch (test) {
+    case 1:
+        break;
+    default:
+        break;
 }
 
 const testConst = ({
     decon = 0, structed, props = "default"
 }) => {
-
     if (decon) {
         // nothing
     } else {
@@ -44,7 +52,7 @@ const testConstLong = ({
 };
 
 const testAsyncFuncConst = async () => {
-
+    return;
 };
 
 const arr = [
@@ -56,12 +64,25 @@ const arr = [
     6,
 ];
 
+let a,
+    b,
+    d,
+    f;
+
 const obj = {
     [strTest]: {blubb: true},
+    blubb: true,
+    what: true,
     bla: "what"
 };
 
-const Component = ({test = true}) => {
+const {
+    blubb, what, bla
+} = obj;
+
+const Component = ({
+    test = true, test2 = true, test3 = false, test4 = "what"
+}) => {
     return (
         <div className="test" onClick={test}>
             {test || "fallback text"}
