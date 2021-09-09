@@ -1,5 +1,5 @@
 {
-    "name": "@ape/eslint-config-base",
+    "name": "eslint-config-ape",
     "private": false,
     "version": "1.0.0",
     "main": ".eslintrc.js",
