@@ -15,13 +15,13 @@ module.exports = {
     },
     "plugins": ["tailwindcss", "react", "json", "newline-destructuring"],
     "rules": {
-        "semi": ["error", "always"],
-        "semi-style": ["error", "last"],
-        "tailwindcss/classnames-order": "error",
+        "semi": [1, "always"],
+        "semi-style": [1, "last"],
+        "tailwindcss/classnames-order": 1,
         "json/*": ["error", {"allowComments": true}],
-        "no-trailing-spaces": ["error"],
-        "no-multiple-empty-lines": ["error"],
-        "no-multi-spaces": ["error"],
+        "no-trailing-spaces": 1,
+        "no-multiple-empty-lines": 1,
+        "no-multi-spaces": 1,
         "indent": [
             "error",
             4,
@@ -61,7 +61,7 @@ module.exports = {
         "one-var-declaration-per-line": ["error", "always"],
         "rest-spread-spacing": ["error", "never"],
         "padded-blocks": [
-            "error",
+            1,
             {
                 "blocks": "never",
                 "classes": "always",
@@ -69,7 +69,7 @@ module.exports = {
             }
         ],
         "space-before-function-paren": [
-            "error",
+            1,
             {
                 "anonymous": "always",
                 "named": "never",
@@ -77,7 +77,7 @@ module.exports = {
             }
         ],
         "comma-spacing": [
-            "error",
+            1,
             {
                 "before": false,
                 "after": true
@@ -105,28 +105,28 @@ module.exports = {
         "react/prop-types": [0],
         "no-unused-vars": [1],
         "object-curly-newline": [
-            "error",
+            1,
             {
                 "multiline": true,
                 "minProperties": 2
             }
         ],
-        "brace-style": ["error", "1tbs"],
+        "brace-style": [1, "1tbs"],
         "object-property-newline": [
-            "error",
+            1,
             {
                 "allowAllPropertiesOnSameLine": false,
                 "allowMultiplePropertiesPerLine": false
             }
         ],
-        "function-paren-newline": ["error", {"minItems": 4}],
-        "function-call-argument-newline": ["error", "consistent"],
-        "array-element-newline": ["error", "consistent"],
-        "array-bracket-newline": ["error", "consistent"],
+        "function-paren-newline": [1, {"minItems": 4}],
+        "function-call-argument-newline": [1, "consistent"],
+        "array-element-newline": [1, "consistent"],
+        "array-bracket-newline": [1, "consistent"],
         "react/no-unescaped-entities": [0],
-        "no-mixed-spaces-and-tabs": "error",
+        "no-mixed-spaces-and-tabs": 1,
         "space-infix-ops": "error",
-        "spaced-comment": "error",
+        "spaced-comment": 1,
         "max-len": [
             1, {
                 "code": 160,
@@ -141,7 +141,7 @@ module.exports = {
             }
         ],
         "newline-destructuring/newline": [
-            "error",
+            1,
             {
                 "items": 1,
                 "itemsWithRest": 2
