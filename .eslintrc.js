@@ -22,6 +22,7 @@ module.exports = {
         "no-trailing-spaces": 1,
         "no-multiple-empty-lines": 1,
         "no-multi-spaces": 1,
+        "no-prototype-builtins": 1,
         "indent": [
             "error",
             4,
