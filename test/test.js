@@ -110,3 +110,16 @@ const Component = ({
         </div>
     );
 };
+
+Component.find = () => {
+
+};
+
+
+const findTest = Component.find({
+    i: {am: {a: {stupid: "query"}}},
+    im: {
+        a: "bit",
+        better: {i: "think"}
+    }
+});
