@@ -128,6 +128,7 @@ module.exports = {
         "no-mixed-spaces-and-tabs": 1,
         "space-infix-ops": "error",
         "spaced-comment": 1,
+        "no-control-regex": 1,
         "max-len": [
             1, {
                 "code": 160,
