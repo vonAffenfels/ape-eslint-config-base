@@ -33,7 +33,7 @@ switch (test) {
 const testConst = ({
     decon = 0,
     structed,
-    props = "default"
+    props = "default",
 }) => {
     if (decon) {
         // nothing
@@ -52,12 +52,12 @@ const testConstLong = ({
     asdasd = "default",
     asdasdad = true,
     fddgfgfdgdgfdg = false,
-    asdsadsd = "whyamisolongtralalala"
+    asdsadsd = "whyamisolongtralalala",
 }) => {
 
 };
 
-const testAsyncFuncConst = async () => {
+const testAsyncFuncConst = async (a, b) => {
     return;
 };
 
@@ -67,7 +67,7 @@ const arr = [
     3,
     4,
     5,
-    6
+    6,
 ];
 
 let a,
@@ -82,18 +82,18 @@ const obj = {
     bla: "what",
     blubb2: true,
     what2: true,
-    bla2: "what"
+    bla2: "what",
 };
 
 const {
     blubb,
     what,
-    bla
+    bla,
 } = obj;
 
 const {
     blubb2,
-    what2
+    what2,
 } = obj;
 
 const {bla2} = obj;
@@ -102,7 +102,7 @@ const Component = ({
     test = true,
     test2 = true,
     test3 = false,
-    test4 = "what"
+    test4 = "what",
 }) => {
     return (
         <div className="test" onClick={test}>
@@ -120,6 +120,6 @@ const findTest = Component.find({
     i: {am: {a: {stupid: "query"}}},
     im: {
         a: "bit",
-        better: {i: "think"}
-    }
+        better: {i: "think"},
+    },
 });

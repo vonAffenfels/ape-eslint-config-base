@@ -1,17 +1,17 @@
 module.exports = {
     "parserOptions": {
         "sourceType": "module",
-        "ecmaFeatures": {"jsx": true}
+        "ecmaFeatures": {"jsx": true},
     },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@next/next/recommended"
+        "plugin:@next/next/recommended",
     ],
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
     },
     "plugins": ["tailwindcss", "react", "json", "newline-destructuring"],
     "rules": {
@@ -37,26 +37,26 @@ module.exports = {
                 "ignoreComments": false,
                 "FunctionDeclaration": {
                     "body": 1,
-                    "parameters": 2
-                }
-            }
+                    "parameters": 2,
+                },
+            },
         ],
         "comma-dangle": [
             "error",
             {
-                "arrays": "never",
-                "objects": "never",
-                "imports": "never",
-                "exports": "never",
-                "functions": "never"
-            }
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "always-multiline",
+            },
         ],
         "semi-spacing": [
             "error",
             {
                 "before": false,
-                "after": true
-            }
+                "after": true,
+            },
         ],
         "space-in-parens": ["error", "never"],
         "one-var-declaration-per-line": ["error", "always"],
@@ -66,23 +66,23 @@ module.exports = {
             {
                 "blocks": "never",
                 "classes": "always",
-                "switches": "never"
-            }
+                "switches": "never",
+            },
         ],
         "space-before-function-paren": [
             1,
             {
                 "anonymous": "always",
                 "named": "never",
-                "asyncArrow": "always"
-            }
+                "asyncArrow": "always",
+            },
         ],
         "comma-spacing": [
             1,
             {
                 "before": false,
-                "after": true
-            }
+                "after": true,
+            },
         ],
         "@next/next/no-document-import-in-page": [0],
         "@next/next/no-html-link-for-pages": [0],
@@ -98,8 +98,8 @@ module.exports = {
             2,
             {
                 "maximum": 1,
-                "when": "multiline"
-            }
+                "when": "multiline",
+            },
         ],
         "react/jsx-first-prop-new-line": [2, "multiline-multiprop"],
         "react/react-in-jsx-scope": [0],
@@ -109,16 +109,16 @@ module.exports = {
             1,
             {
                 "multiline": true,
-                "minProperties": 2
-            }
+                "minProperties": 2,
+            },
         ],
         "brace-style": [1, "1tbs"],
         "object-property-newline": [
             1,
             {
                 "allowAllPropertiesOnSameLine": false,
-                "allowMultiplePropertiesPerLine": false
-            }
+                "allowMultiplePropertiesPerLine": false,
+            },
         ],
         "function-paren-newline": [1, {"minItems": 4}],
         "function-call-argument-newline": [1, "consistent"],
@@ -139,16 +139,16 @@ module.exports = {
                 ignoreUrls: true,
                 ignoreStrings: true,
                 ignoreTemplateLiterals: true,
-                ignoreRegExpLiterals: true
-            }
+                ignoreRegExpLiterals: true,
+            },
         ],
         "newline-destructuring/newline": [
             1,
             {
                 "items": 1,
-                "itemsWithRest": 2
-            }
-        ]
+                "itemsWithRest": 2,
+            },
+        ],
     },
     "settings": {
         "react": {"version": "detect"},
@@ -159,7 +159,7 @@ module.exports = {
             "groupByResponsive": false,
             "prependCustom": true,
             "removeDuplicates": true,
-            "whitelist": []
-        }
-    }
+            "whitelist": [],
+        },
+    },
 };
