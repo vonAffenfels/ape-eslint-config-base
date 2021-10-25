@@ -149,6 +149,7 @@ module.exports = {
                 "itemsWithRest": 2,
             },
         ],
+        "import/no-unresolved": 2,
     },
     "settings": {
         "react": {"version": "detect"},

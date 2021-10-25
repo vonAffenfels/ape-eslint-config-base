@@ -1,3 +1,10 @@
+import {whattest} from "blubb";
+const {
+    foo,
+    bar,
+    lol,
+} = require("foo");
+
 const strTest = "";
 const strTestTempl = `
     Hello ${strTest}!
