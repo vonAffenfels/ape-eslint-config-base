@@ -13,7 +13,7 @@ module.exports = {
         "es2021": true,
         "node": true,
     },
-    "plugins": ["tailwindcss", "react", "json", "newline-destructuring"],
+    "plugins": ["tailwindcss", "react", "json", "newline-destructuring", "import"],
     "rules": {
         "semi": [1, "always"],
         "semi-style": [1, "last"],
