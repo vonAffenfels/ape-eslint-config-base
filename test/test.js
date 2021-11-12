@@ -1,4 +1,7 @@
 import {whattest} from "blubb";
+import test from "lib/test";
+import testing from "lib/testing"
+
 const {
     foo,
     bar,
