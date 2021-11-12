@@ -4,6 +4,7 @@ module.exports = {
         "ecmaFeatures": {"jsx": true},
     },
     "extends": [
+        "plugin:import/react",
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@next/next/recommended",
@@ -152,6 +153,7 @@ module.exports = {
         "import/no-unresolved": 2,
     },
     "settings": {
+        "import/resolver": {"node": {"extensions": [".js", ".jsx"]}},
         "react": {"version": "detect"},
         "tailwindcss": {
             "callees": ["classnames", "classNames", "clsx", "ctl"],
