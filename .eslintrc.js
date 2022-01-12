@@ -19,6 +19,7 @@ module.exports = {
         "semi": [1, "always"],
         "semi-style": [1, "last"],
         "tailwindcss/classnames-order": 1,
+        "react/no-array-index-key": 2,
         "json/*": ["error", {"allowComments": true}],
         "no-trailing-spaces": 1,
         "no-multiple-empty-lines": 1,
