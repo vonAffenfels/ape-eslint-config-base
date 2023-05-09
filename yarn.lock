@@ -609,6 +609,11 @@ eslint-plugin-newline-destructuring@^1.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-newline-destructuring/-/eslint-plugin-newline-destructuring-1.0.1.tgz#0623ca6de807b037fc4c1c7b5eac93c682dc39fa"
   integrity sha512-NOSS4Yel10oVhyFmM12AXw+koNhblZT1aj1KZkK/dAo0cA3XArbSc7JKQOvgAVvyVBaNNFTHswk49iHq/RrHTQ==
 
+eslint-plugin-react-hooks@^4.6.0:
+  version "4.6.0"
+  resolved "http://npm.ape/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz#4c3e697ad95b77e93f8646aaa1630c1ba607edd3"
+  integrity sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==
+
 eslint-plugin-react@^7.25.1:
   version "7.25.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.25.1.tgz#9286b7cd9bf917d40309760f403e53016eda8331"

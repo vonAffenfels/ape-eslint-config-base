@@ -14,12 +14,21 @@ module.exports = {
         "es2021": true,
         "node": true,
     },
-    "plugins": ["tailwindcss", "react", "json", "newline-destructuring", "import"],
+    "plugins": [
+        "tailwindcss",
+        "react",
+        "json",
+        "newline-destructuring",
+        "import",
+        "react-hooks"
+    ],
     "rules": {
         "semi": [1, "always"],
         "semi-style": [1, "last"],
         "tailwindcss/classnames-order": 1,
         "react/no-array-index-key": 2,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "json/*": ["error", {"allowComments": true}],
         "no-trailing-spaces": 1,
         "no-multiple-empty-lines": 1,
