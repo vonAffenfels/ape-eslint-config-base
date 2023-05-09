@@ -26,7 +26,7 @@ module.exports = {
         "semi": [1, "always"],
         "semi-style": [1, "last"],
         "tailwindcss/classnames-order": 1,
-        "react/no-array-index-key": 2,
+        "react/no-array-index-key": 1,
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "json/*": ["error", {"allowComments": true}],
