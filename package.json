@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-ape",
     "private": false,
-    "version": "1.0.15",
+    "version": "1.0.16",
     "main": ".eslintrc.js",
     "license": "MIT",
     "scripts": {
