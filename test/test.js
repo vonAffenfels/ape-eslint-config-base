@@ -133,3 +133,10 @@ const findTest = Component.find({
         better: {i: "think"},
     },
 });
+
+
+class Test {
+    static bla= "what";
+
+    blubb = "foooobar";
+}
