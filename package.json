@@ -7,6 +7,9 @@
     "scripts": {
         "eslint": "eslint test/* --fix"
     },
+    "devDependencies": {
+        "tailwindcss": "^3.3.3"
+    },
     "dependencies": {
         "@next/eslint-plugin-next": "^11.1.2",
         "eslint": "^8.45.0",
@@ -18,6 +21,6 @@
         "eslint-plugin-react-hooks": "^4.6.0"
     },
     "peerDependencies": {
-        "eslint": ">= 7"
+        "eslint": ">= 8"
     }
 }
