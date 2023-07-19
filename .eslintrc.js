@@ -16,12 +16,11 @@ module.exports = {
         "node": true,
     },
     "plugins": [
-        "tailwindcss",
         "react",
         "json",
         "newline-destructuring",
         "import",
-        "react-hooks"
+        "react-hooks",
     ],
     "rules": {
         "semi": [1, "always"],
