@@ -9,6 +9,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@next/next/recommended",
+        "plugin:tailwindcss/recommended"
     ],
     "env": {
         "browser": true,
@@ -16,6 +17,7 @@ module.exports = {
         "node": true,
     },
     "plugins": [
+        "tailwindcss",
         "react",
         "json",
         "newline-destructuring",
