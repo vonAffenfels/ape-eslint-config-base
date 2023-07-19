@@ -1,5 +1,6 @@
 module.exports = {
     "parserOptions": {
+        "es2023": true,
         "sourceType": "module",
         "ecmaFeatures": {"jsx": true},
     },
