@@ -163,6 +163,8 @@ module.exports = {
             },
         ],
         "import/no-unresolved": 2,
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": "warn",
     },
     "settings": {
         "import/resolver": {"node": {"extensions": [".js", ".jsx"]}},
