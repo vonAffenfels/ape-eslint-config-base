@@ -9,8 +9,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@next/next/recommended",
-        "plugin:tailwindcss/recommended",
-        "unused-imports"
+        "plugin:tailwindcss/recommended"
     ],
     "env": {
         "browser": true,
@@ -24,6 +23,7 @@ module.exports = {
         "newline-destructuring",
         "import",
         "react-hooks",
+        "unused-imports"
     ],
     "rules": {
         "semi": [1, "always"],
