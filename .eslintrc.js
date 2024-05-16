@@ -9,7 +9,8 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@next/next/recommended",
-        "plugin:tailwindcss/recommended"
+        "plugin:tailwindcss/recommended",
+        "unused-imports"
     ],
     "env": {
         "browser": true,
