@@ -1,6 +1,4 @@
-import {whattest} from "blubb";
 import test from "lib/test";
-import testing from "lib/testing"
 
 const {
     foo,
@@ -13,7 +11,7 @@ const strTestTempl = `
     Hello ${strTest}!
 `;
 
-function test() {
+function test2() {
 
 }
 
@@ -135,8 +133,10 @@ const findTest = Component.find({
 });
 
 
-class Test {
-    static bla= "what";
+class Test2 {
+
+    static bla = "what";
 
     blubb = "foooobar";
+
 }
